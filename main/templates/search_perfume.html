@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Sistema de Recomendacion - Alberto Rubio</title>
+</head>
+<body>
+{% include 'header.html' %}
+
+<h1>Buscar Perfume</h1>
+<form id='form' method='post' action=''>{% csrf_token %}
+{{form}}
+<p><input type='submit' value='Confirm'/></p>
+</form>
+
+</body>
+</html>
